@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   // Remplacez 'nom-de-votre-depot' par le nom exact de votre repository GitHub
-  base: '/loic-meurant/',
+  base: '/loic-meurant.github.io/',
   build: {
     outDir: 'dist',
   },
